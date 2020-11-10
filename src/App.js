@@ -1,4 +1,5 @@
-import Form from './compoments/Form';
+import Characters from './compoments/Characters';
+// import Form from './compoments/Form';
 import Header from './compoments/Header';
 
 import './App.css';
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <Header age='42' status='chickenLord' poulet='miam' />
-      <Form />
+      {/* <Form /> */}
+      <Characters />
     </div>
   );
 }
